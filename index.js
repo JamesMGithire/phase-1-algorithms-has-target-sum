@@ -12,7 +12,7 @@ function hasTargetSum(array, target) {
 
 /* 
   Write the Big O time complexity of your function here
-  The Big O time for this function is O(n*2)
+  The Big O time for this function is O(n^2)
   This is because it has a nested loop in it that uses the index of an element for binary search.
 
   If the list is has x items and the time taken with one item is n, and the time taken by each x item in the nested loop is n, then the total time is n*n or n*2.
